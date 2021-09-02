@@ -100,7 +100,7 @@ services:
     image: newfeature-8722
     container_name: newfeature-8722
     ports: 
-      - 8006:8006
+      - 8007:8007
     env_file: .env
     depends_on:
       - mongo

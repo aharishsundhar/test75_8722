@@ -54,8 +54,8 @@ service:
   newfeature: 
     name: newfeature
     type: NodePort
-    port: 8006
-    targetPort: 8006
+    port: 8007
+    targetPort: 8007
 
 
 deployment:
